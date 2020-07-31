@@ -1,0 +1,55 @@
+            html, body {
+                height: 100%;
+                width: 100%;
+            }
+            body {
+                font-family: Verdana, Arial, Helvetica, Sans-Serif;
+                margin: 0;
+            }
+            ul {
+                list-style: none;
+            }
+            a {
+                color: #007baa;
+            }
+            small {
+                display: block;
+                text-align: center;
+            }
+            .container {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                height: 100%;
+                width: 100%;
+            }
+            .inner {
+                margin: 20px;
+            }
+            .releases {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .item {
+                width: 180px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                text-align: center;
+                margin: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .item:hover {
+                background-color: #eee;
+            }
+            .item > a {
+                display: block;
+                text-decoration: none;
+                padding: 10px;
+            }
+            .item > a > span, .item > a > img {
+                display: block;
+                wrap: nowrap;
+                margin: 5px;
+            }
